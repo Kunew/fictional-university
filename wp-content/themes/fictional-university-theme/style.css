@@ -3,3 +3,7 @@ Theme Name: Fictional University
 Author: Gordon Rozga
 Version: 1.0
 */
+
+.ego {
+    display: flex;
+}
