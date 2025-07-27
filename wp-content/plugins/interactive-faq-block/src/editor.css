@@ -1,0 +1,6 @@
+.faq-item {
+    margin-bottom: 1rem;
+}
+.faq-item h4 {
+    cursor: pointer;
+}

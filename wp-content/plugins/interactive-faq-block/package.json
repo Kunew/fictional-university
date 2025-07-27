@@ -1,0 +1,25 @@
+{
+  "name": "interactive-faq-block",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@wordpress/block-editor": "^14.11.0",
+    "@wordpress/blocks": "^14.5.0",
+    "@wordpress/components": "^29.2.0",
+    "@wordpress/element": "^6.16.0",
+    "@wordpress/scripts": "^30.9.0"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.26.3",
+    "css-loader": "^7.1.2",
+    "style-loader": "^4.0.0"
+  }
+}
