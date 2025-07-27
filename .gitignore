@@ -1,0 +1,55 @@
+# WordPress core (don't track core files from wp.org)
+wordpress/
+wp-admin/
+wp-includes/
+
+# Ignore config and sensitive files
+wp-config.php
+.htaccess
+web.config
+nginx.conf
+
+# Ignore content directories you don’t edit directly
+wp-content/upgrade/
+wp-content/uploads/
+wp-content/cache/
+wp-content/backups/
+
+# Ignore plugins and themes except your custom ones
+# If you’re developing a custom theme or plugin, include that path instead
+
+wp-content/themes/*
+!wp-content/themes/fictional-university-/theme
+
+# Ignore OS or IDE specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore log and temporary files
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Ignore Composer, Node, or vendor files if used
+/vendor/
+/node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore environment files
+.env
+.env.*
+
+# Ignore SASS or build cache if applicable
+.sass-cache/
+.cache/
+dist/
+build/
+
+# Ignore Git and deployment files
+.gitignore
+.gitattributes
+*.zip
+*.tar.gz
